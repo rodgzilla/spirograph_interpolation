@@ -1,0 +1,19 @@
+{
+  "name": "Star Pattern mod",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 107,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 75,
+      "radius": 0.75,
+      "pen_offset": 0.9
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#F1A208",
+  "line_width": 2
+}

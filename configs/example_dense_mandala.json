@@ -1,0 +1,19 @@
+{
+  "name": "Dense Mandala",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 240,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 119,
+      "radius": 0.496,
+      "pen_offset": 0.78
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#5E35B1",
+  "line_width": 1.5
+}

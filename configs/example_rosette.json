@@ -1,0 +1,19 @@
+{
+  "name": "Rosette",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 144,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 72,
+      "radius": 0.5,
+      "pen_offset": 0.75
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#D81B60",
+  "line_width": 2.5
+}

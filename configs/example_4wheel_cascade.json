@@ -1,0 +1,32 @@
+{
+  "name": "4-Wheel Cascade",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 160,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 80,
+      "radius": 0.5,
+      "parent_index": 0
+    },
+    {
+      "type": "moving",
+      "teeth": 40,
+      "radius": 0.25,
+      "parent_index": 1
+    },
+    {
+      "type": "moving",
+      "teeth": 20,
+      "radius": 0.125,
+      "parent_index": 2,
+      "pen_offset": 0.8
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#D32F2F",
+  "line_width": 1.8
+}

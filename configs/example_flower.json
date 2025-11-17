@@ -1,0 +1,19 @@
+{
+  "name": "Simple Flower",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 84,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 21,
+      "radius": 0.25,
+      "pen_offset": 0.7
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#E63946",
+  "line_width": 2.5
+}

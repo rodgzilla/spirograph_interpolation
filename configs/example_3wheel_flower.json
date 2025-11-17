@@ -1,0 +1,26 @@
+{
+  "name": "3-Wheel Flower",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 144,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 48,
+      "radius": 0.333,
+      "parent_index": 0
+    },
+    {
+      "type": "moving",
+      "teeth": 24,
+      "radius": 0.167,
+      "parent_index": 1,
+      "pen_offset": 0.9
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#E91E63",
+  "line_width": 1.8
+}

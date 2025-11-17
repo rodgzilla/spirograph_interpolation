@@ -1,0 +1,26 @@
+{
+  "name": "3-Wheel Simple",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 120,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 60,
+      "radius": 0.5,
+      "parent_index": 0
+    },
+    {
+      "type": "moving",
+      "teeth": 30,
+      "radius": 0.25,
+      "parent_index": 1,
+      "pen_offset": 0.8
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#1976D2",
+  "line_width": 2.0
+}

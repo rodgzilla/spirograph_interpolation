@@ -1,0 +1,19 @@
+{
+  "name": "Complex Lace",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 168,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 63,
+      "radius": 0.375,
+      "pen_offset": 0.92
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#6A1B9A",
+  "line_width": 1.5
+}

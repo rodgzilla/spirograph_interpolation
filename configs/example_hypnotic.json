@@ -1,0 +1,19 @@
+{
+  "name": "Hypnotic Spiral",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 180,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 89,
+      "radius": 0.494,
+      "pen_offset": 0.95
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#00ACC1",
+  "line_width": 1.6
+}

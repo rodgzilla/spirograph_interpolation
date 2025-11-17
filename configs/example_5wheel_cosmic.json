@@ -1,0 +1,38 @@
+{
+  "name": "5-Wheel Cosmic",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 180,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 90,
+      "radius": 0.5,
+      "parent_index": 0
+    },
+    {
+      "type": "moving",
+      "teeth": 45,
+      "radius": 0.25,
+      "parent_index": 1
+    },
+    {
+      "type": "moving",
+      "teeth": 30,
+      "radius": 0.167,
+      "parent_index": 2
+    },
+    {
+      "type": "moving",
+      "teeth": 15,
+      "radius": 0.083,
+      "parent_index": 3,
+      "pen_offset": 0.9
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#C2185B",
+  "line_width": 1.9
+}

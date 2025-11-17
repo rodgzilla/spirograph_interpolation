@@ -1,0 +1,19 @@
+{
+  "name": "Heart Curve",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 90,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 45,
+      "radius": 0.5,
+      "pen_offset": 0.55
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#E91E63",
+  "line_width": 2.5
+}

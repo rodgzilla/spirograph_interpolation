@@ -1,0 +1,19 @@
+{
+  "name": "Smooth Waves",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 132,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 66,
+      "radius": 0.5,
+      "pen_offset": 0.65
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#039BE5",
+  "line_width": 2.0
+}

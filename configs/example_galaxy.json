@@ -1,0 +1,19 @@
+{
+  "name": "Galaxy Spiral",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 195,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 91,
+      "radius": 0.467,
+      "pen_offset": 0.89
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#283593",
+  "line_width": 2.0
+}

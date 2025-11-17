@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spirograph Visualizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Spirograph Visualizer</h1>
+            <p>Interactive spirograph pattern generator with smooth morphing animations</p>
+        </header>
+
+        <main>
+            <div class="controls-panel">
+                <h2>Controls</h2>
+
+                <div class="control-group">
+                    <label for="config-select">Select Configuration:</label>
+                    <select id="config-select">
+                        <option value="">-- Select --</option>
+                    </select>
+                    <button id="load-config-btn">Load</button>
+                </div>
+
+                <div class="control-group">
+                    <h3>Animation</h3>
+                    <button id="play-btn">Play</button>
+                    <button id="pause-btn">Pause</button>
+                    <button id="reset-btn">Reset</button>
+                    <button id="clear-btn">Clear</button>
+                </div>
+
+                <div class="control-group">
+                    <label for="speed-slider">Speed: <span id="speed-value">1.0x</span></label>
+                    <input type="range" id="speed-slider" min="0.1" max="50" step="0.1" value="1.0">
+                </div>
+
+                <div class="control-group">
+                    <label>
+                        <input type="checkbox" id="show-complete-only">
+                        Show complete patterns only (no animation)
+                    </label>
+                </div>
+
+                <div class="control-group">
+                    <h3>Pattern Info</h3>
+                    <div id="pattern-info">
+                        <p>Rotation: <span id="current-rotation">0</span> / <span id="total-rotations">0</span></p>
+                        <p>Points: <span id="point-count">0</span></p>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <h3>Morphing</h3>
+                    <p>Select two configurations to morph between them</p>
+                    <select id="morph-config-a">
+                        <option value="">-- Config A --</option>
+                    </select>
+                    <select id="morph-config-b">
+                        <option value="">-- Config B --</option>
+                    </select>
+                    <label for="morph-duration">Duration (seconds):</label>
+                    <input type="number" id="morph-duration" value="3" min="1" max="30" step="0.5">
+                    <p style="font-size: 0.9em; color: #666;">
+                        Plays at 24 frames/second
+                        <br>
+                        <span id="morph-steps-display">72 frames</span>
+                    </p>
+                    <label for="easing-select">Easing:</label>
+                    <select id="easing-select">
+                        <option value="linear">Linear</option>
+                        <option value="ease-in-out" selected>Ease In-Out</option>
+                        <option value="ease-in">Ease In</option>
+                        <option value="ease-out">Ease Out</option>
+                    </select>
+                    <button id="morph-btn">Generate Morph</button>
+
+                    <!-- Progress Bar -->
+                    <div id="morph-progress-container" style="display: none; margin-top: 15px;">
+                        <label>Generating patterns:</label>
+                        <div style="background: #e0e0e0; border-radius: 10px; height: 20px; overflow: hidden; margin-top: 5px;">
+                            <div id="morph-progress-bar" style="background: linear-gradient(90deg, #667eea, #764ba2); height: 100%; width: 0%; transition: width 0.3s;"></div>
+                        </div>
+                        <p id="morph-progress-text" style="font-size: 0.9em; color: #666; margin-top: 5px;">0 / 0</p>
+                    </div>
+
+                    <!-- Animation Controls -->
+                    <div id="morph-animation-controls" style="display: none; margin-top: 15px;">
+                        <button id="start-morph-btn" style="background: #28a745;">Start Animation</button>
+                        <button id="export-video-btn" style="background: #dc3545;">Export as Video</button>
+                    </div>
+
+                    <!-- Recording Status -->
+                    <div id="recording-status" style="display: none; margin-top: 10px;">
+                        <p style="color: #dc3545; font-weight: bold;">● Recording...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="canvas-container">
+                <canvas id="spirograph-canvas"></canvas>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/canvas_renderer.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "Pentagon Pattern",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 150,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 30,
+      "radius": 0.2,
+      "pen_offset": 0.85
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#1E88E5",
+  "line_width": 2
+}

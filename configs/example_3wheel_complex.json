@@ -1,0 +1,26 @@
+{
+  "name": "3-Wheel Complex",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 180,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 75,
+      "radius": 0.417,
+      "parent_index": 0
+    },
+    {
+      "type": "moving",
+      "teeth": 37,
+      "radius": 0.206,
+      "parent_index": 1,
+      "pen_offset": 0.85
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#7B1FA2",
+  "line_width": 1.9
+}

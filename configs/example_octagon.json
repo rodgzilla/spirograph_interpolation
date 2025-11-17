@@ -1,0 +1,19 @@
+{
+  "name": "Octagon Flower",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 160,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 20,
+      "radius": 0.125,
+      "pen_offset": 0.7
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#43A047",
+  "line_width": 2.3
+}

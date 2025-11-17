@@ -1,0 +1,19 @@
+{
+  "name": "Atomic Structure",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 156,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 52,
+      "radius": 0.333,
+      "pen_offset": 0.72
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#C62828",
+  "line_width": 2.1
+}

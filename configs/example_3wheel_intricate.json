@@ -1,0 +1,26 @@
+{
+  "name": "3-Wheel Intricate",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 200,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 89,
+      "radius": 0.445,
+      "parent_index": 0
+    },
+    {
+      "type": "moving",
+      "teeth": 43,
+      "radius": 0.215,
+      "parent_index": 1,
+      "pen_offset": 0.75
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#00897B",
+  "line_width": 2.1
+}

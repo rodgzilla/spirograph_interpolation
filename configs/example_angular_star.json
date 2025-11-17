@@ -1,0 +1,19 @@
+{
+  "name": "Angular Star",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 120,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 80,
+      "radius": 0.667,
+      "pen_offset": 0.95
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#FFA000",
+  "line_width": 2.2
+}

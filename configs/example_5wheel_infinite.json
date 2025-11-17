@@ -1,0 +1,38 @@
+{
+  "name": "5-Wheel Infinite",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 240,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 120,
+      "radius": 0.5,
+      "parent_index": 0
+    },
+    {
+      "type": "moving",
+      "teeth": 60,
+      "radius": 0.25,
+      "parent_index": 1
+    },
+    {
+      "type": "moving",
+      "teeth": 30,
+      "radius": 0.125,
+      "parent_index": 2
+    },
+    {
+      "type": "moving",
+      "teeth": 15,
+      "radius": 0.063,
+      "parent_index": 3,
+      "pen_offset": 0.95
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#0097A7",
+  "line_width": 1.7
+}

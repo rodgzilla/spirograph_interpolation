@@ -1,0 +1,19 @@
+{
+  "name": "Classic Spirograph",
+  "wheels": [
+    {
+      "type": "fixed",
+      "teeth": 105,
+      "radius": 1.0
+    },
+    {
+      "type": "moving",
+      "teeth": 64,
+      "radius": 0.61,
+      "pen_offset": 0.8
+    }
+  ],
+  "rotation_count": "auto",
+  "color": "#2E86AB",
+  "line_width": 2
+}
