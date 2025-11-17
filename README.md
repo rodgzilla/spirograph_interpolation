@@ -2,9 +2,11 @@
 
 A Python-based spirograph pattern generator with interactive web visualization and smooth morphing animations between different configurations. This project was built using Claude Code.
 
+A morphing example
 
-<iframe title="Spirograph morphing" src="https://www.youtube.com/embed/p1_LhkvXaoA?feature=oembed" height="150" width="200" allowfullscreen="" allow="fullscreen" style="aspect-ratio: 1.33333 / 1; width: 100%; height: 100%;"></iframe>
+[![Watch the video](https://img.youtube.com/vi/p1_LhkvXaoA/maxresdefault.jpg)](https://youtu.be/p1_LhkvXaoA)
 
+The interface of the project.
 
 ![Interface of the generator](imgs/interface.png)
 
