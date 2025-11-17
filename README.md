@@ -2,6 +2,8 @@
 
 A Python-based spirograph pattern generator with interactive web visualization and smooth morphing animations between different configurations. This project was built using Claude Code.
 
+![Interface of the generator](imgs/interface.png)
+
 ## Features
 
 - **Configuration-based Generation**: Define spirograph parameters in JSON files
